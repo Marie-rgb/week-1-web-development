@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <!-- Title of the page -->
+    <title>Expense Tracker Application</title>
+
+    <!-- Meta tag for display -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta tag for character set -->
+    <meta charset="UTF-8">
+
+    <!-- External CSS (if any) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Expense Tracker Application</h1>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Heading -->
+        <h2>Welcome to the Expense Tracker</h2>
+
+        <!-- Paragraph -->
+        <p>Keep track of your income and expenses easily with our user-friendly interface.</p>
+
+        <!-- Basic Registration Form -->
+        <section>
+            <h3>Register Here</h3>
+            <form action="/register" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <!-- Table Displaying Common User Information -->
+        <section>
+            <h3>User Information</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>john.doe@example.com</td>
+                        <td>+1234567890</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>jane.smith@example.com</td>
+                        <td>+0987654321</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Image -->
+        <section>
+            <h3>Track Your Expenses</h3>
+            <img src="expense-tracker.jpg" alt="Expense Tracker" width="500">
+        </section>
+
+        <!-- External Link to Google -->
+        <section>
+            <h3>Learn More</h3>
+            <p>Visit <a href="https://google.com" target="_blank">Google</a> for more information.</p>
+        </section>
+    </main>
+</body>
+
+</html>
